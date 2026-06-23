@@ -1,0 +1,22 @@
+# ADNI data
+*.csv
+*.tsv
+*.txt
+*.zip
+*.nii
+*.nii.gz
+*.json
+*_exclude.txt
+!.gitignore
+bids_*/
+clinica_data/
+dcm2bids_leftovers/
+tmp_dcm2bids/
+
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# os
+.DS_Store
